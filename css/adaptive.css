@@ -1,20 +1,22 @@
-@media (max-width: 1600px) { 
+@media (max-width: 1600px) {
     .header-down-button {
         padding-left: 50.5vw !important;
+    }
+    .header-title-button {
+        left: 6.6vw !important;
+    }
 }
-.header-title-button {
-	left: 6.6vw !important;
-}
-}
-@media (max-width: 1400px) { 
+
+@media (max-width: 1400px) {
     .header-down-button {
         padding-left: 52.5vw !important;
+    }
+    .header-title {
+        left: 31vw;
+    }
 }
-.header-title {
-	left: 31vw;
-}
-}
-@media (max-width: 1200px) { 
+
+@media (max-width: 1200px) {
     .header-title-button {
         padding: 7px 30px 7px 30px !important;
     }
@@ -30,7 +32,8 @@
         bottom: 0.9vw !important;
     }
 }
-@media (max-width: 1024px) { 
+
+@media (max-width: 1024px) {
     .header-title-button {
         padding: 7px 30px 7px 30px !important;
         left: 7vw !important;
@@ -40,7 +43,6 @@
         padding-left: 52.5vw !important;
     }
     .card-counter {
-       
         height: 3.5vw !important;
         width: 3.5vw !important;
     }
@@ -49,7 +51,8 @@
         top: 0.3vw !important;
     }
 }
-@media (max-width: 900px) { 
+
+@media (max-width: 900px) {
     .header-title-button {
         padding: 6px 27px 6px 27px !important;
     }
@@ -67,6 +70,7 @@
         top: 0.3vw !important;
     }
 }
+
 @media (max-width: 800px) {
     @keyframes arrow-anim {
         0% {
@@ -98,37 +102,79 @@
         padding-left: 52.5vw !important;
     }
 }
+
 .header-body {
     right: 5.5vw !important;
 }
+
 @media (max-width: 400px) {
-.header-title-button {
-    padding: 5px 20px 5px 20px !important;
-    left: 2.5vw !important;
-}
-.body-text-desc img {
-    bottom: 25vw !important;
-}
-.card-counter {
-    display: none;
-}
-.review-desc {
-    bottom: 3.5vw !important;
-}
-.review-body-line {
-    bottom: 6.0vw !important;
-}
-.stats__card-line {
-    top: 4.8vw !important;
-}
-.card-text {
-    top: 7vw !important;
-}
-.contacts__card-desc {
-    top: 1vw !important;
-}
-.body-text-desc span {
-    max-height: 20vw !important;
-    display: inline-block !important;
-}
+    .header {
+        zoom: 3 !important;
+    }
+    .menu-nav li {
+        margin-right: 3vw;
+        font-size: 1.9vw !important;
+    }
+    .navbar img {
+        width: 23vw;
+    }
+    .navbar {
+        width: 90vw !important;
+    }
+    .menu-nav {
+        right: 20vw !important;
+    }
+    .header-title-button {
+        padding: 5px 20px 5px 20px !important;
+        left: 2.5vw !important;
+    }
+    .body-text-desc img {
+        bottom: 25vw !important;
+    }
+    .header-title {
+        font-size: 5vw !important;
+        width: 100vw;
+        left: 16vw !important;
+        padding-top: 1vw !important;
+    }
+    .header-title-desc {
+        left: 14vw !important;
+        font-size: 2.5vw !important;
+    }
+    .header-title-button {
+        bottom: 4vw !important;
+        border: 1px solid white !important;
+        font-size: 2.3vw;
+        left: 16vw !important;
+    }
+    .card-counter {
+        display: none;
+    }
+    .review-desc {
+        bottom: 3.5vw !important;
+    }
+    .stats__card-line {
+        top: 4.8vw !important;
+    }
+    .card-text {
+        top: 7vw !important;
+    }
+    .contacts__card-desc {
+        top: 1vw !important;
+    }
+    .body-text-desc span {
+        max-height: 20vw !important;
+        display: inline-block !important;
+    }
+    @keyframes arrow-anim {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-1px) !important;
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
 }
